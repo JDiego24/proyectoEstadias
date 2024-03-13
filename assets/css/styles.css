@@ -860,8 +860,7 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: px;
-  grid-row-gap: 0px;
+  grid-row-gap: 1.5rem;
 }
 
 .testimonial__container {
@@ -878,19 +877,15 @@ header {
 }
 
 /* Estilos para los testimonios 2-5 */
-.testimonial-2,
-.testimonial-3,
-.testimonial-4,
-.testimonial-5 {
+.testimonial-2
+{
     grid-column: 1; /* Aparecen en la primera columna */
     grid-row: span 1; /* Ocupa 1 fila */
 }
 
 /* Estilos para los testimonios 6-9 */
-.testimonial-6,
-.testimonial-7,
-.testimonial-8,
-.testimonial-9 {
+.testimonial-3
+{
     grid-column: 2; /* Aparecen en la segunda columna */
     grid-row: span 1; /* Ocupa 1 fila */
 }
@@ -906,8 +901,8 @@ header {
 }
 
 .testimonial__img {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   margin-right: var(--mb-0-75);
 }
